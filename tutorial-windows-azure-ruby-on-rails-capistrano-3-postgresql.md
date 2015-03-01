@@ -4,7 +4,7 @@ This tutorial will show you how to create and deploy a basic Ruby on Rails app o
 
 ## NOTE
 
-GitHub does not support embeding gists in markdown. Therefore either follow the README.html file or download and compile this yourself.
+GitHub does not support embeding gists in markdown, so the code examples will not appear. Either follow the README.html file or download and compile this yourself.
 
 ## Time
 
