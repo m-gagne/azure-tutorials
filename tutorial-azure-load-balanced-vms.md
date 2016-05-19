@@ -1,12 +1,12 @@
 # How to Load Balance Virtual Machines in Azure
 
-For this we will use the current portal [https://portal.azure.com] and the [Azure Resource Manager](https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/) deployment model (not the [classic model](https://azure.microsoft.com/en-us/documentation/articles/azure-classic-rm/)).
+For this we will use the current portal at [https://portal.azure.com](portal.azure.com) and the [Azure Resource Manager](https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/) deployment model (not the [classic model](https://azure.microsoft.com/en-us/documentation/articles/azure-classic-rm/)).
 
 ## Step 1: Create a Resource Group
 
 [Resource Groups](https://azure.microsoft.com/en-us/documentation/articles/resource-group-portal/) allow you to group connected or like resources together to make it easier to manage, update, delete etc. Think of it as giving a name and a container for all components for a given project. This way you can find them much easier, see how much it's costing you and manage them all from one place.
 
-1. From the [portal](https://portal.azure.com] click **+ New > Management > Resource group**
+1. From the [portal](https://portal.azure.com) click **+ New > Management > Resource group**
 1. Provide a *Name*, *Subscription* & *Location*
 1. Click **Create**
 
