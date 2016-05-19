@@ -1,6 +1,6 @@
 # How to Load Balance Virtual Machines in Azure
 
-For this we will use the current portal at [https://portal.azure.com](portal.azure.com) and the [Azure Resource Manager](https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/) deployment model (not the [classic model](https://azure.microsoft.com/en-us/documentation/articles/azure-classic-rm/)).
+For this we will use the current portal at [portal.azure.com](https://portal.azure.com) and the [Azure Resource Manager](https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/) deployment model (not the [classic model](https://azure.microsoft.com/en-us/documentation/articles/azure-classic-rm/)).
 
 ## Step 1: Create a Resource Group
 
