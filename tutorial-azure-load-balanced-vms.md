@@ -142,3 +142,7 @@ Repeat the above for port 443 (SSL)
 ## Conclusion
 
 You should now have a fully load balanced setup. I find creating test pages with test like "Server 1", "Server 2" or a page that displays the local IP handy to verify that the various VMs are truly being load balanced.
+
+## Next Steps
+
+So now that you understand the basics of Resource Groups, Storage Accounts, Virtual Networks, Network Security Groups, Virtual Machines & Load-Balancing, did you know you can automate the entire setup using an Azure Resource Manager Template (aka ARM template)? It's a JSON document that describes to Azure how to do everything we just did above. There are 100's of templates to help you get started on [GitHub](https://github.com/Azure/azure-quickstart-templates) and Azure has a [QuickStart site](https://azure.microsoft.com/en-us/documentation/templates/) to help you find a sample template. This one in particular: [201-2-vms-loadbalancer-lbrules ](https://github.com/Azure/azure-quickstart-templates/tree/master/201-2-vms-loadbalancer-lbrules) will replicate what we have setup above, however please note that you will need to edit it to include port 443 in your LB rules.
