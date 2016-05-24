@@ -50,7 +50,7 @@ For this we will use the current portal at [portal.azure.com](https://portal.azu
 1. For *Resource Group* select the Resource Group you previously created
 1. Click **Create**
 
-### Define Inbound security rules
+## Step 5: Define Inbound security rules
 
 1. Open your newly created security group
 1. Click **Inbound security rules**
@@ -62,7 +62,7 @@ For this we will use the current portal at [portal.azure.com](https://portal.azu
   - Why the source port range of '*'? This is because of the way Azure manages inbound connections from internal sources which can come from different ports.
 1. Click **Ok**
 
-## Step 4: Create the VMs
+## Step 6: Create the VMs
 
 1. From the portal click **+ New > Virtual Machines > ** and select the image type (Windows, Linux etc.)
 1. Click **Create**
@@ -85,7 +85,7 @@ For this we will use the current portal at [portal.azure.com](https://portal.azu
 
 Repeat the above as needed (for a second, third, fourth VM etc.), also you will need to setup your web server/web app/etc. as needed.
 
-## Step 5: Create a load balancer (assuming public internet based load balancing)
+## Step 7: Create a load balancer (assuming public internet based load balancing)
 
 Unfortunately at this time the [public documentation](https://azure.microsoft.com/en-us/documentation/articles/load-balancer-get-started-internet-arm-ps/) for setting up a load balancer only includes PowerShell, CLI & ARM Tempaltes. The steps below cover a basic web based (HTTP & HTTPS) setup.
 
