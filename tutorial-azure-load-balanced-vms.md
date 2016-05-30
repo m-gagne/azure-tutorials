@@ -16,7 +16,7 @@ For this we will use the current portal at [portal.azure.com](https://portal.azu
 
 [Storage Accounts](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/) are like telling Azure "hey I want all storage related stuff like files, hard drives and more kept here please under this name". So, much like Resource Groups that are a container for all like services & infrastructure, a storage account is a container for all related storage. By default your storage account will be setup for LRS or Locally Redundant Storage. What this means is Azure will maintain 3 copies of your data at all times to ensure even in a failure of one or more drives your data is still intact.
 
-1. From the [portal](https://portal.azure.com] click **+ New > Data + Storage > Storage Account**
+1. From the [portal](https://portal.azure.com) click **+ New > Data + Storage > Storage Account**
 1. Provide a *Name*
 1. Ensure *Deployment model* is set to *Resouce Manager*
 1. For *Performance*, standard is fine unless you need SSD performance
